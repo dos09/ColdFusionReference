@@ -11,7 +11,7 @@
         </p>
         <!-- check if variable exists -->
         <cfif IsDefined("orc_name")>
-            The "orc_name"" variable is defined.
+            The "orc_name" variable is defined.
         <cfelse>
             The "orc_name" variable is not defined.
         </cfif>

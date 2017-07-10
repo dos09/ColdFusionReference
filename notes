@@ -1,0 +1,2 @@
+some of the printing of the result is done outside the cfscript, because
+writeOutput("<br/>"); messes the highlighting.

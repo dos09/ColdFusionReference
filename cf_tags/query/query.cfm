@@ -20,5 +20,17 @@
                 </cfoutput>
             </cfloop>
         </table>
+        <cfoutput>
+            <p>
+                #getOrcs.RecordCount# records found<br/>
+                Columns: #getOrcs.ColumnList#<br/>
+            </p>
+        </cfoutput>
+        <cfloop query="getOrcs">
+            <cfoutput>
+                row #getOrcs.CurrentRow#:
+                #getOrcs.clan#, #getOrcs.name#
+            </cfoutput><br/>
+        </cfloop>
     </body>
 </html>
