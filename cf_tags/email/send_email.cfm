@@ -7,7 +7,7 @@
     	subject="Test message sent with cold fusion"
     	type="text">
         The sent number is #num#
-    </cfmail>
+        </cfmail>
         Mail was sent successfully.
     </body>
 </html>

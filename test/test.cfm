@@ -12,5 +12,11 @@
             writeOutput("#fff#<br/>");
             //writeOutput("#bbb#<br/>");
         </cfscript>
+        <cfset Session.xx = 1>
+        <cfset Session.xx += 1>
+        <cfoutput>
+            Session counter: #Session.counter#<br/>
+            xx: #Session.xx#<br/>
+        </cfoutput>
     </body>
 </html>
