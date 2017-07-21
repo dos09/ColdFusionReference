@@ -9,3 +9,4 @@ component {
        sessionInvalidate();
     }
 }
+/* All session variables must be in Application.cfc/cfm*/

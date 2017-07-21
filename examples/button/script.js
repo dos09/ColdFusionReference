@@ -15,7 +15,7 @@
 			url : "text_changer.cfc",
 			method : "POST",
 			data : {
-				method : 'changeText', // method from worker.cfc
+				method : 'changeText', // method from text_changer.cfc
 				// the above method's parameters
 				randomText : text
 			},
